@@ -1,0 +1,78 @@
+  @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+#title {
+    display: block;
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+     font-family:'Russo One', sans-serif;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+#title::before, #title::after {
+    content: '';
+    display: block;
+    width: 45%;
+         font-family:'Russo One', sans-serif;
+    border-bottom: 2px solid #99C24D;
+    margin: 0 auto;
+    margin-top: 0.2em;
+}
+
+#title::before {
+    margin-bottom: 0.2em;
+    color: white;
+    width: 60%;
+         font-family:'Russo One', sans-serif;
+}
+
+.card-text{
+	text-align: left;
+	color: green;
+	font-family: bold ;
+	font-size: 30px;
+
+}
+.card-text2 {
+	text-align: right;
+	color: red;
+	font-family: bold ;
+	font-size: 30px;
+
+	
+}
+#score-container {
+    display: block;
+    width: 30%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.score {
+    position: relative;
+    width: calc(50% - 3px);
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    border: 2px solid black;
+    border-right: 1px solid black;
+    background-color: #f9fff0;
+    font-size: 2em;
+         font-family:'Russo One', sans-serif;
+}
+
+.away-team.score {
+    float: right;
+    border-right: 2px solid black;
+    border-left: 1px solid black;
+}
+.idd
+{
+	text-align: center;
+}
+#score-container #vs{
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
